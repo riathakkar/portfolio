@@ -64,11 +64,14 @@ li.dropdown {
     display: block;
 }
 </style>
+	
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	
 </head>
 <body>
 
 <ul>
-  <li><a href="#home">Home</a></li>
+  <li><a href="#home" id="Home">Home</a></li>
   <li><a href="#news">My life</a></li>
   <li class="dropdown">
     <a href="#" class="dropbtn">Passions</a>
@@ -93,7 +96,11 @@ h2{color:white;}
 
 
 
-
+<script>
+	$( "#Home" ).click(function() {
+   window.open("https://www.facebook.com/profile.php?id=100008860682923.com");
+});
+</script>
 
 </body>
 </html>
